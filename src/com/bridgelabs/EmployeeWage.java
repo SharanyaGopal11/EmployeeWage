@@ -10,7 +10,7 @@ public class EmployeeWage {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Employee Wage Computation program on main branch");   // welcome message
 		UtilityFunctions util = new UtilityFunctions();
-		System.out.println("Employee is "+ util.isPresent());          // displays if employee is present or absent
+		util.isPresent();               // to check if the employee is present or absent and his wage
 	}
 
 }
